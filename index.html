@@ -1,13 +1,28 @@
+<!DOCTYPE html>
 <html>
-  <h1 style="background-color:powderblue;">Hello World!</h1>
-  <h3>Jaruphat Promjit</h3>
-  <h1>Give me Full Mark please</h1>
-<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+<head>
+  <style>
+    body {
+      background: linear-gradient(to bottom, white, brown);
+    }
+    h1 {
+      background-color: powderblue;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hello World!</h1>
+  <h3>The Icon Group</h3>
+  <h1>Room Coffee</h1>
+
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
     Chatbot.init({
         chatflowid: "1e033a1c-8430-4bc6-8be9-7be53d07e8ba",
         apiHost: "https://jaru-flowise.hf.space",
-    })
-</script>
+    });
+  </script>
 
+</body>
 </html>
